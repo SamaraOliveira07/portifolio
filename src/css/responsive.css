@@ -1,0 +1,154 @@
+@media (max-width: 1024px) {
+    .menu {
+        padding: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #inicio {
+        font-size: 2em;
+        margin-left: 0;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .conteudo, .imagem {
+        width: 100%;
+        text-align: center;
+    }
+
+    #computador-imagem {
+        width: 100%;
+        height: auto;
+    }
+
+    .informacao {
+        flex-direction: column;
+        margin: 5% 0;
+    }
+
+    .sobre-mim, .contato {
+        width: 90%;
+        margin: 10px auto;
+        height: auto;
+    }
+
+    .projetos {
+        flex-direction: column;
+        margin: 5% 0;
+    }
+
+    .bloco1, .bloco2, .bloco3 {
+        width: 90%;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu {
+        padding: 15px;
+    }
+
+    #inicio {
+        font-size: 1.8em;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .conteudo, .imagem {
+        width: 100%;
+        text-align: center;
+    }
+
+    .imagem #computador-imagem {
+        width: 100%;
+        height: auto;
+    }
+
+    .informacao {
+        flex-direction: column;
+        margin: 5% 0;
+    }
+
+    .sobre-mim, .contato {
+        width: 90%;
+        margin: 10px auto;
+        height: auto;
+    }
+
+    .projetos {
+        flex-direction: column;
+        margin: 5% 0;
+    }
+
+    .bloco1, .bloco2, .bloco3 {
+        width: 90%;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    #inicio {
+        font-size: 1.5em;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .conteudo, .imagem {
+        width: 100%;
+        text-align: center;
+    }
+
+    .imagem #computador-imagem {
+        width: 100%;
+        height: auto;
+    }
+
+    .informacao {
+        flex-direction: column;
+        margin: 5% 0;
+    }
+
+    .sobre-mim, .contato {
+        width: 90%;
+        margin: 10px auto;
+        height: auto;
+    }
+
+    .projetos {
+        flex-direction: column;
+        margin: 5% 0;
+    }
+
+    .bloco1, .bloco2, .bloco3 {
+        width: 90%;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .sobre-mim {
+        width: 90%;
+        margin: 10px auto;
+        height: auto;
+        min-height: 1000px; /* Aumenta a altura mínima para evitar corte do texto */
+    }
+}
+
+@media (max-width: 480px) {
+    .sobre-mim {
+        width: 90%;
+        margin: 10px auto;
+        height: auto;
+        min-height: 1200px; /* Aumenta ainda mais a altura mínima para telas menores */
+    }
+}
